@@ -536,7 +536,7 @@ class Swiper extends Component {
         this.props.onSwipedAll();
         // onSwipeAll may have added cards
         if (allSwipedCheck()) {
-          //swipedAllCards = true
+          swipedAllCards = true
         }
       } else {
         newCardIndex = 0;
